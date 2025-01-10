@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="INSERT_OR_UPDATE">
+        <css>/*&#13;
+ * The Typekit service used to deliver this font or fonts for use on websites&#13;
+ * is provided by Adobe and is subject to these Terms of Use&#13;
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license&#13;
+ * information, see the list below.&#13;
+ *&#13;
+ * arima:&#13;
+ *   - http://typekit.com/eulas/0000000000000000774dc7d6&#13;
+ *   - http://typekit.com/eulas/0000000000000000774dc7db&#13;
+ *&#13;
+ * © 2009-2024 Adobe Systems Incorporated. All Rights Reserved.&#13;
+ */&#13;
+/*{"last_published":"2024-12-06 20:01:39 UTC"}*/&#13;
+&#13;
+@import url("https://p.typekit.net/p.css?s=1&amp;k=rnn5zlm&amp;ht=tk&amp;f=54312.54314&amp;a=71901078&amp;app=typekit&amp;e=css");&#13;
+&#13;
+@font-face {&#13;
+font-family:"arima";&#13;
+src:url("https://use.typekit.net/af/a162fa/0000000000000000774dc7d6/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n7&amp;v=3") format("woff2"),url("https://use.typekit.net/af/a162fa/0000000000000000774dc7d6/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n7&amp;v=3") format("woff"),url("https://use.typekit.net/af/a162fa/0000000000000000774dc7d6/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n7&amp;v=3") format("opentype");&#13;
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;&#13;
+}&#13;
+&#13;
+@font-face {&#13;
+font-family:"arima";&#13;
+src:url("https://use.typekit.net/af/414a2d/0000000000000000774dc7db/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n4&amp;v=3") format("woff2"),url("https://use.typekit.net/af/414a2d/0000000000000000774dc7db/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n4&amp;v=3") format("woff"),url("https://use.typekit.net/af/414a2d/0000000000000000774dc7db/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n4&amp;v=3") format("opentype");&#13;
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;&#13;
+}&#13;
+&#13;
+.tk-arima { font-family: "arima",sans-serif; }&#13;
+</css>
+        <name>rnn5zlm</name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-06 20:13:04</sys_created_on>
+        <sys_id>1caeee7983d2d210b8bec7c6feaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rnn5zlm</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sp_css_1caeee7983d2d210b8bec7c6feaad3fc</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-06 20:13:04</sys_updated_on>
+        <turn_off_scss_compilation>false</turn_off_scss_compilation>
+    </sp_css>
+</record_update>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.footerStyle {&#13;
+  padding-bottom: 25px;&#13;
+  width: 100%;&#13;
+  background-color: #3a3f51;&#13;
+  color: #cccccc;&#13;
+  text-align: center;&#13;
+  font-size: 1em;&#13;
+  margin-left: auto; &#13;
+  margin-right: auto;&#13;
+  padding-top: 25px;&#13;
+  background: rgb(58,63,81);&#13;
+  background: linear-gradient(180deg, rgba(58,63,81,1) 0%, rgba(37,45,53,1) 100%); &#13;
+}&#13;
+&#13;
+.footerContainer {&#13;
+  width: 275px;&#13;
+  display: inline-block;&#13;
+  text-align: left;&#13;
+  vertical-align: top;&#13;
+}&#13;
+&#13;
+.copyright {&#13;
+  width: 400px;&#13;
+  display: inline-block;&#13;
+  text-align: left;&#13;
+  vertical-align: top;&#13;
+}&#13;
+&#13;
+.social {&#13;
+  display: inline-block;&#13;
+  text-align: left;&#13;
+  vertical-align: top;&#13;
+  font-size: 2.5em;&#13;
+}&#13;
+&#13;
+.social a {&#13;
+ color: #cccccc;&#13;
+}&#13;
+&#13;
+.social a:hover {&#13;
+ color: #ffffff;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>lva_footer</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>LVA Footer</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-28 02:45:43</sys_created_on>
+        <sys_id>8a0210788372de10b8bec7c6feaad3a9</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>LVA Footer</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sp_header_footer_8a0210788372de10b8bec7c6feaad3a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-29 04:18:51</sys_updated_on>
+        <template><![CDATA[<div class="footerStyle">
+  
+  <div class="footerContainer">
+    <p><strong>CONTACT IT</strong></p>
+    <p>Americas: +1 XXX 555 1234</p>
+    <p>EMEA: +XX 55 555 1234</p>
+    <p>APAC: +XX 55 555 1234</p>
+  </div>
+  
+  <div class="footerContainer">
+    <p><strong>CONTACT SECURITY</strong></p>
+    <p>Americas: +1 XXX 555 4321</p>
+    <p>EMEA: +XX 55 555 4321</p>
+    <p>APAC: +XX 55 555 4321</p>
+  </div>
+  
+  <div class="copyright">
+    <p>&copy 2024 LVA All Rights Reserved</p>
+  </div>
+  
+  <div class="social" id="footer">
+    <a class="fa fa-linkedin" href="https://www.linkedin.com/company/servicenow" target="_blank"></a> &nbsp
+    <a class="fa fa-twitter" href="https://www.twitter.com/servicenow" target="_blank"></a> &nbsp
+    <a class="fa fa-youtube" href="https://www.youtube.com/servicenowinc" target="_blank"></a> &nbsp
+    <a class="fa fa-facebook" href="https://www.facebook.com/servicenow" target="_blank"></a> &nbsp
+    <a class="fa fa-instagram" href="https://www.instagram.com/servicenow" target="_blank"></a> &nbsp
+    <a class="fa fa-power-off" href="https://www.servicenow.com/community/" target="_blank"></a>
+  </div>
+  
+</div>]]></template>
+    </sp_header_footer>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>8a0210788372de10b8bec7c6feaad3a9</id>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-28 03:48:12</sys_created_on>
+        <sys_id>115024b883b2de10b8bec7c6feaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-28 03:48:12</sys_updated_on>
+        <table>sp_header_footer</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

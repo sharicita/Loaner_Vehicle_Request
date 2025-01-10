@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include">
+    <sp_css_include action="INSERT_OR_UPDATE">
+        <lazy_load>false</lazy_load>
+        <name>arima</name>
+        <rtl_css_file_url/>
+        <source>url</source>
+        <sp_css display_value="rnn5zlm">1caeee7983d2d210b8bec7c6feaad3fc</sp_css>
+        <sys_class_name>sp_css_include</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-06 20:13:27</sys_created_on>
+        <sys_id>2d9eee7983d2d210b8bec7c6feaad316</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>arima</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sp_css_include_2d9eee7983d2d210b8bec7c6feaad316</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-06 22:10:09</sys_updated_on>
+        <url>https://use.typekit.net/rnn5zlm.css</url>
+    </sp_css_include>
+</record_update>

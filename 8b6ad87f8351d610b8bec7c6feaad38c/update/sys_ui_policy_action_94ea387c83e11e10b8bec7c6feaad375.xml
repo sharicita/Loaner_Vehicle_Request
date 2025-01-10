@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>expected_return_date</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-10-27 02:25:54</sys_created_on>
+        <sys_id>94ea387c83e11e10b8bec7c6feaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>expected_return_date</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_94ea387c83e11e10b8bec7c6feaad375</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-10-27 02:25:54</sys_updated_on>
+        <table>x_1553691_lva_vehicle_tracker</table>
+        <ui_policy display_value="Make Mandatory if Vehicle Status is Pending Release or Out on Field">36c974f883e11e10b8bec7c6feaad327</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

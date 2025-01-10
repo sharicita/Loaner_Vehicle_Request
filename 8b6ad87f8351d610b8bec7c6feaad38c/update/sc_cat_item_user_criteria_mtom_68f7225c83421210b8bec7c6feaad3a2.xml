@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Request Loaner Vehicle">7980113883651e10b8bec7c6feaad36b</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-11-19 17:36:39</sys_created_on>
+        <sys_id>68f7225c83421210b8bec7c6feaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Loaner Vehicle.Users with 'snc_internal' role</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_68f7225c83421210b8bec7c6feaad3a2</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-11-19 17:36:39</sys_updated_on>
+        <user_criteria display_value="Users with 'snc_internal' role">d2d2e20557130300d873ac71ef94f9aa</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

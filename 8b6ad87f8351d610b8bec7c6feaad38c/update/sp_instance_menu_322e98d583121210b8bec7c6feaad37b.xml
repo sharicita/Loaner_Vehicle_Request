@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu">
+    <sp_instance_menu action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column/>
+        <sp_widget display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</sp_widget>
+        <sys_class_name>sp_instance_menu</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-04 20:24:47</sys_created_on>
+        <sys_id>322e98d583121210b8bec7c6feaad37b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>LVA Header Menu</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sp_instance_menu_322e98d583121210b8bec7c6feaad37b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-29 05:17:29</sys_updated_on>
+        <title>LVA Header Menu</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+   "enable_cart":{
+        "displayValue":"true",
+        "value":true
+    },
+    "exclude_search_on_homepage":{
+        "displayValue":"true",
+        "value":true
+    },
+    "enable_requests":{
+        "displayValue":"true",
+        "value":true
+    },
+    "enable_tasks":{
+        "displayValue":"false",
+        "value":false
+    },
+    "enable_more_items":{
+          "displayValue":"true",
+          "value":true,
+        "sysId":"8bcd758983be1250b8bec7c6feaad315"
+    }
+}]]></widget_parameters>
+    </sp_instance_menu>
+    <sys_translated_text action="delete_multiple" query="documentkey=322e98d583121210b8bec7c6feaad37b"/>
+</record_update>

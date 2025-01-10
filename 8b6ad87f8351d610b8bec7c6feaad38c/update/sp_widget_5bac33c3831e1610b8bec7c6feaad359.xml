@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function(spUtil, $scope) {
+  /* widget controller */
+  var c = this;
+	
+	// Change status & reload records
+	$scope.changeStatus = function(newStatus) {
+		c.data.status = newStatus;
+		console.log(c.data.status);
+		spUtil.update($scope);
+	};
+	
+	  /*
+	//Default status
+	c.status = 'Available';
+	
+	//Fetch records from server
+	c.getRecords = function() {
+		$http.post('/api/now/v1/widget/' + c.options.sys_id, { status: c.status })
+		.then(function(response) {
+			//Update records based on server response
+			c.records = response.data.result.records;
+		}, function(error) {
+			console.error("Error fetching records: ", error);
+		});
+	};
+	
+	// Change status & reload records
+	c.changeStatus = function(newStatus) {
+		c.status = newStatus;
+		c.getRecords();
+	};
+
+	// Initial data Load
+	c.getRecords();
+	*/
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.records_by_status {
+  border: 1px solid #dddddd;
+  background: #ffffff;
+  padding: 0 30px 10px 30px;
+  border-radius: 10px;
+  margin: 0 0 30px 0;
+}
+
+.rbs_btns {
+  margin: 20px 0 30px 0;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+.rbs_content {
+  margin: 0 0 15px 0;
+}
+
+.rbs_record {
+  margin: 0 0 30px 0;
+  border-bottom: 12px solid #cccccc;
+  position: relative;
+}
+
+.rbs_btn {
+  display: block;
+  width: 125px;
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 1.1em;
+  background: rgb(215,243,254);
+  background: linear-gradient(167deg, rgba(215,243,254,1) 0%, rgba(138,203,229,1) 18%, rgba(83,130,151,1) 96%);
+  border: 2px solid #8acbe5;
+  padding: 3px 20px;
+  margin: auto 10px;
+  border-radius: 5px;
+  transition: 0.33s;
+  opacity: 0.75;
+  float: right;
+}
+
+.rbs_btn:hover {
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.rbs_btn:active {
+  background-color: #538297;
+  border: 2px solid #f2f2f2;
+}
+
+.text_normal {
+ font-size: 1em; 
+ font-weight: normal; 
+}
+
+.text_bold {
+ font-weight: bold; 
+}
+
+
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>records_by_status</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Records by Status</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); 
+
+*/
+	var modelFilter = $sp.getParameter("sysparm_make");
+	data.status = ((input && input.status) ? input.status : 'available');
+	data.records = [];
+
+	var vcatGR = new GlideRecord('x_1553691_lva_loaner_vehicle_catalog');
+	if (modelFilter){
+		vcatGR.addQuery('vehicle_make', modelFilter);
+	}
+	
+	
+	vcatGR.addQuery('status', data.status);
+	vcatGR.query();
+	while (vcatGR.next()) {
+		data.records.push({
+			number: vcatGR.getValue('number'),
+			vehicle_description: vcatGR.getValue('vehicle_description'),
+			vehicle_make: vcatGR.getValue('vehicle_make'),
+			vehicle_model: vcatGR.getValue('vehicle_model'),
+			status: vcatGR.getValue('status'),
+			created_on: vcatGR.getDisplayValue('sys_created_on'),
+			image: ((vcatGR.getValue('image')) ? vcatGR.getValue('image') + '.iix' : ''),
+			sys_id: vcatGR.getValue('sys_id')
+		});
+	}
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-10 23:05:50</sys_created_on>
+        <sys_id>5bac33c3831e1610b8bec7c6feaad359</sys_id>
+        <sys_mod_count>198</sys_mod_count>
+        <sys_name>Records by Status</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sp_widget_5bac33c3831e1610b8bec7c6feaad359</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 00:55:09</sys_updated_on>
+        <template><![CDATA[<div class="records_by_status">
+  <h2 class="widget-header">Vehicle Availability by Status</h2>
+
+  <div class="rbs_btns">
+    <button ng-disabled="data.status == 'available'" ng-class="data.status != 'available' ? 'btn-primary' : ''" ng-click="changeStatus('available')">Available</button>
+    <button ng-disabled="data.status == 'unavailable'" ng-class="data.status != 'unavailable' ? 'btn-primary' : ''" ng-click="changeStatus('unavailable')">Unavailable</button>
+    <button ng-disabled="data.status == 'decommissioned'" ng-class="data.status != 'decommissioned' ? 'btn-primary' : ''" ng-click="changeStatus('decommissioned')">Decommissioned</button>
+  </div>
+  
+  <div class="rbs_content" ng-repeat="record in data.records">
+
+      <div class="rbs_record">
+        <h4 class="text_bold">{{record.vehicle_make}} {{record.vehicle_model}} - {{record.number}} <a class="rbs_btn text_normal" ng-if="record.status == 'available'" title="Loan {{record.vehicle_make}} {{record.vehicle_model}} - {{record.number}}" href="/lva?id=sc_cat_item&sys_id=7980113883651e10b8bec7c6feaad36b&sysparm_vehicle={{record.sys_id}}">Loan Now</a></h4>
+        <p>{{record.vehicle_description}}</p>
+        <img src="{{record.image}}" width="50%" title="{{record.vehicle_make}} {{record.vehicle_model}}" alt="{{record.vehicle_make}} {{record.vehicle_model}}">
+        
+      </div>
+      
+  </div>
+
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

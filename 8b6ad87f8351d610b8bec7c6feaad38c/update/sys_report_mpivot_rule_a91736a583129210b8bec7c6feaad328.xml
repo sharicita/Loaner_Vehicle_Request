@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_mpivot_rule">
+    <sys_report_mpivot_rule action="INSERT_OR_UPDATE">
+        <bg_color>background-color:</bg_color>
+        <bg_color_id/>
+        <color>background-color:#C83C36</color>
+        <color_id display_value="#C83C36">75ab0255b7610110c5aebc16de11a967</color_id>
+        <operator>&gt;</operator>
+        <order/>
+        <report_id display_value="Vehicles Being Serviced">4af6f26583129210b8bec7c6feaad3e0</report_id>
+        <sys_class_name>sys_report_mpivot_rule</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-06 02:11:15</sys_created_on>
+        <sys_id>a91736a583129210b8bec7c6feaad328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>&gt;</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sys_report_mpivot_rule_a91736a583129210b8bec7c6feaad328</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-06 02:11:15</sys_updated_on>
+        <value1>5</value1>
+        <value2/>
+    </sys_report_mpivot_rule>
+</record_update>

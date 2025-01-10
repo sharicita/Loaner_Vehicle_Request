@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="INSERT_OR_UPDATE">
+        <display>5</display>
+        <metric display_value="Overall Satisfaction">c568a4b483f2de10b8bec7c6feaad3fc</metric>
+        <normalization_input>0</normalization_input>
+        <order>5</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-28 04:23:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1168e4b483f2de10b8bec7c6feaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>asmt_metric_definition_1168e4b483f2de10b8bec7c6feaad312</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-28 04:23:25</sys_updated_on>
+        <unselected_image/>
+        <value>5</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=1168e4b483f2de10b8bec7c6feaad312"/>
+</record_update>
