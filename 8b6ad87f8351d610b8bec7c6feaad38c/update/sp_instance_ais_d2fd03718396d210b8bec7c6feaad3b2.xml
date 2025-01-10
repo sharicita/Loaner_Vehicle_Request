@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">defd03718396d210b8bec7c6feaad3ae</sp_column>
+        <sp_widget display_value="Knowledge Breadcrumbs">851b8947db20320099f93691f0b8f5ea</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-06 22:29:23</sys_created_on>
+        <sys_id>d2fd03718396d210b8bec7c6feaad3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sp_instance_ais_d2fd03718396d210b8bec7c6feaad3b2</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-06 22:29:23</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"show_search_box": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance_ais>
+    <sys_translated_text action="delete_multiple" query="documentkey=d2fd03718396d210b8bec7c6feaad3b2"/>
+</record_update>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>a {&#13;
+  color : $brand-primary-darker;&#13;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure>%kb_name - %short_descr</dynamic_title_structure>
+        <human_readable_url_structure>%short_descr</human_readable_url_structure>
+        <id>lva_kb_article_view_1</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles>snc_external,snc_internal</roles>
+        <seo_script display_value="SPSEOHeaderTagsArticleView">8fdebc2277111010742fec672b10614f</seo_script>
+        <short_description>Knowledge Article View Page</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-06 22:29:23</sys_created_on>
+        <sys_id>96fd437d8356d210b8bec7c6feaad3a0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>lva_kb_article_view_1</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sp_page_96fd437d8356d210b8bec7c6feaad3a0</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-06 22:58:44</sys_updated_on>
+        <title>LVA Knowledge Article View 1</title>
+        <use_seo_script>true</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=96fd437d8356d210b8bec7c6feaad3a0"/>
+</record_update>

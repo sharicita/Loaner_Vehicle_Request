@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>0</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">22fd03718396d210b8bec7c6feaad3d0</sp_column>
+        <sp_widget display_value="Case Ticket Action on Article">0f74ce2273041010b5c7ed64fbf6a789</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-06 22:29:23</sys_created_on>
+        <sys_id>6afd03718396d210b8bec7c6feaad3d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sp_instance_6afd03718396d210b8bec7c6feaad3d2</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-06 22:29:23</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=6afd03718396d210b8bec7c6feaad3d2"/>
+</record_update>

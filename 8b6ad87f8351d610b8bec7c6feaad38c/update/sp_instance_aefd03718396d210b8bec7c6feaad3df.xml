@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>5</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">22fd03718396d210b8bec7c6feaad3d0</sp_column>
+        <sp_widget display_value="Knowledge Attached Tasks">6cf446150ba832004ce28ffe15673a30</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-06 22:29:23</sys_created_on>
+        <sys_id>aefd03718396d210b8bec7c6feaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Most Recent Tasks</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sp_instance_aefd03718396d210b8bec7c6feaad3df</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-06 22:29:23</sys_updated_on>
+        <title>Most Recent Tasks</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=aefd03718396d210b8bec7c6feaad3df"/>
+</record_update>
