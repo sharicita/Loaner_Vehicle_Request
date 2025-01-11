@@ -1,2 +1,2 @@
-# Inventory_Request_Management
-Inventory and Request Management ServiceNow custom application
+# Loaner_Vehicle_Request
+Loaner Vehicle Application - ServiceNow custom application
