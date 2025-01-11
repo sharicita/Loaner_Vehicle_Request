@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ts_configuration">
+    <ts_configuration action="INSERT_OR_UPDATE">
+        <applies_to>0</applies_to>
+        <format>v4</format>
+        <index_group/>
+        <sys_class_name>ts_configuration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-01 07:53:13</sys_created_on>
+        <sys_id>428efd0e83329650b8bec7c6feaad36f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1553691_lva_loaner_vehicle_catalog</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>ts_configuration_428efd0e83329650b8bec7c6feaad36f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-01 07:53:13</sys_updated_on>
+        <table>x_1553691_lva_loaner_vehicle_catalog</table>
+    </ts_configuration>
+</record_update>

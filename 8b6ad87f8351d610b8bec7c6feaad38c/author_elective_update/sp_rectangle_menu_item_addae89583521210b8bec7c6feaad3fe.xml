@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="DELETE">
+        <active>true</active>
+        <color>default</color>
+        <condition/>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph/>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>Available Vehicles</label>
+        <order>200</order>
+        <record_script/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page/>
+        <sp_rectangle_menu display_value="LVA Header Menu">322e98d583121210b8bec7c6feaad37b</sp_rectangle_menu>
+        <sp_rectangle_menu_item display_value="Loaner Vehicle Request Process">3f0ce81983521210b8bec7c6feaad3f8</sp_rectangle_menu_item>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-04 21:21:21</sys_created_on>
+        <sys_id>addae89583521210b8bec7c6feaad3fe</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Available Vehicles</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_addae89583521210b8bec7c6feaad3fe</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-04 22:19:01</sys_updated_on>
+        <table/>
+        <type>url</type>
+        <url>lva?id=list&amp;table=x_1553691_lva_loaner_vehicle_catalog&amp;filter=status%3Davailable</url>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="DELETE" query="documentkey=addae89583521210b8bec7c6feaad3fe"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</application>
+        <file_path/>
+        <instance_id>02da4e7ddbfdb594ae4c9027c59619d5</instance_id>
+        <instance_name>dev182749</instance_name>
+        <name>sp_rectangle_menu_item_addae89583521210b8bec7c6feaad3fe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item"><sp_rectangle_menu_item action="INSERT_OR_UPDATE"><active>true</active><color>default</color><condition/><display_1/><display_2/><display_date/><filter/><glyph/><hint/><kb_article/><kb_category/><kb_topic/><label>Available Vehicles</label><order>200</order><record_script/><sc_cat_item/><sc_category/><short_description/><sp_page/><sp_rectangle_menu display_value="LVA Header Menu">322e98d583121210b8bec7c6feaad37b</sp_rectangle_menu><sp_rectangle_menu_item display_value="Loaner Vehicle Request Process">3f0ce81983521210b8bec7c6feaad3f8</sp_rectangle_menu_item><sys_class_name>sp_rectangle_menu_item</sys_class_name><sys_created_by>shari.lemonnier</sys_created_by><sys_created_on>2024-12-04 21:21:21</sys_created_on><sys_id>addae89583521210b8bec7c6feaad3fe</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Available Vehicles</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope><sys_update_name>sp_rectangle_menu_item_addae89583521210b8bec7c6feaad3fe</sys_update_name><sys_updated_by>shari.lemonnier</sys_updated_by><sys_updated_on>2024-12-04 22:19:01</sys_updated_on><table/><type>url</type><url>lva?id=list&amp;table=x_1553691_lva_loaner_vehicle_catalog&amp;filter=status%3Davailable</url><url_target/></sp_rectangle_menu_item><sys_translated_text action="delete_multiple" query="documentkey=addae89583521210b8bec7c6feaad3fe"/></record_update>]]></payload>
+        <payload_hash>989185834</payload_hash>
+        <record_name>Available Vehicles</record_name>
+        <reverted_from/>
+        <source>51cc1ec883ed1a10b8bec7c6feaad3aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-04 22:19:01</sys_created_on>
+        <sys_id>0b68b09983921210b8bec7c6feaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19393c155530000001</sys_recorded_at>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-04 22:19:01</sys_updated_on>
+        <type>Menu Item</type>
+        <update_guid>cf68b0990992121065247dcc1ee51144</update_guid>
+        <update_guid_history>cf68b0990992121065247dcc1ee51144:989185834,487bacd548521210b1288cef4bd5fd01:-1598551960,123ba4d5695212105e1b75309b178f1d:-2117642348</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Available Vehicles">2c0978d983921210b8bec7c6feaad316</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-04 22:21:35</sys_created_on>
+        <sys_db_object display_value="" name="sp_rectangle_menu_item">sp_rectangle_menu_item</sys_db_object>
+        <sys_id>8231c26dbcda4c78b1d36bdcc79d0419</sys_id>
+        <sys_metadata>addae89583521210b8bec7c6feaad3fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Available Vehicles</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_scope_delete display_value="">3ac61e579acd4ef0a8eb4e291b6d2921</sys_scope_delete>
+        <sys_update_name>sp_rectangle_menu_item_addae89583521210b8bec7c6feaad3fe</sys_update_name>
+        <sys_update_version display_value="sp_rectangle_menu_item_addae89583521210b8bec7c6feaad3fe">0b68b09983921210b8bec7c6feaad345</sys_update_version>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-04 22:21:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

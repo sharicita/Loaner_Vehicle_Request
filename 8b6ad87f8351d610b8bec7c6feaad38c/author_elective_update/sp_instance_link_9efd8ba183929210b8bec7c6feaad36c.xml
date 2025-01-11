@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph>area-chart</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>2</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">45bc836183929210b8bec7c6feaad33d</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-06 03:50:54</sys_created_on>
+        <sys_id>9efd8ba183929210b8bec7c6feaad36c</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Vehicle Availability</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sp_instance_link_9efd8ba183929210b8bec7c6feaad36c</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-28 02:03:11</sys_updated_on>
+        <title>Vehicle Availability</title>
+        <type>url</type>
+        <url>$dashboards.do?sysparm_dashboard=d7b2362183129210b8bec7c6feaad318</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=9efd8ba183929210b8bec7c6feaad36c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</application>
+        <file_path/>
+        <instance_id>02da4e7ddbfdb594ae4c9027c59619d5</instance_id>
+        <instance_name>dev182749</instance_name>
+        <name>sp_instance_link_9efd8ba183929210b8bec7c6feaad36c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;area-chart&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;45bc836183929210b8bec7c6feaad33d&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shari.lemonnier&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-06 03:50:54&lt;/sys_created_on&gt;&lt;sys_id&gt;9efd8ba183929210b8bec7c6feaad36c&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Vehicle Availability&lt;/sys_name&gt;&lt;sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva"&gt;8b6ad87f8351d610b8bec7c6feaad38c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Loaner Vehicle Request and Inventory"&gt;8b6ad87f8351d610b8bec7c6feaad38c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_9efd8ba183929210b8bec7c6feaad36c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;shari.lemonnier&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-28 02:03:11&lt;/sys_updated_on&gt;&lt;title&gt;Vehicle Availability&lt;/title&gt;&lt;type&gt;url&lt;/type&gt;&lt;url&gt;$dashboards.do?sysparm_dashboard=d7b2362183129210b8bec7c6feaad318&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9efd8ba183929210b8bec7c6feaad36c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2089735438</payload_hash>
+        <record_name>Vehicle Availability</record_name>
+        <reverted_from/>
+        <source>51cc1ec883ed1a10b8bec7c6feaad3aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-28 02:03:11</sys_created_on>
+        <sys_id>8348c03c8332de10b8bec7c6feaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1940b00d6410000001</sys_recorded_at>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-28 02:03:11</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>4b48c03c6932de101c1ddba3d236f4bc</update_guid>
+        <update_guid_history>4b48c03c6932de101c1ddba3d236f4bc:2089735438,c348c03cea32de10150c9e3c5d1619b7:-1190655175,9648c03c0032de103cfe1e20733ac578:2089735438,1a48003ca632de1070de57188b022545:-1190655175,7c48803c1432de10051afbcbd2050deb:2089735438,e4be8be1e892921088fe01ddb98f901a:1046844335,fb9e4f61b39292105a4ab728d80d95de:-1395786195,9b6e4ba1159292103cbde88bc1f7aa95:55894886,defd0fa1d292921092f26f25fbc188cf:1828590206</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Vehicle Availability">715880f88332de10b8bec7c6feaad336</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-28 02:03:23</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>569540a9d9b245c3b7f8db0d323cd6a1</sys_id>
+        <sys_metadata>9efd8ba183929210b8bec7c6feaad36c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehicle Availability</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_scope_delete display_value="">3ac61e579acd4ef0a8eb4e291b6d2921</sys_scope_delete>
+        <sys_update_name>sp_instance_link_9efd8ba183929210b8bec7c6feaad36c</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_9efd8ba183929210b8bec7c6feaad36c">8348c03c8332de10b8bec7c6feaad3bd</sys_update_version>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-28 02:03:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

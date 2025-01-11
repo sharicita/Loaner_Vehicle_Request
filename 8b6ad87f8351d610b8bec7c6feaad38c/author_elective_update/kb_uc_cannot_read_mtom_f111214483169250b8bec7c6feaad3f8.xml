@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_cannot_read_mtom">
+    <kb_uc_cannot_read_mtom action="DELETE">
+        <kb_knowledge_base display_value="Loaner Vehicle Knowledge">49b02d0483169250b8bec7c6feaad3c6</kb_knowledge_base>
+        <sys_class_name>kb_uc_cannot_read_mtom</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-01 04:04:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f111214483169250b8bec7c6feaad3f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loaner Vehicle Knowledge.Guest User</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>kb_uc_cannot_read_mtom_f111214483169250b8bec7c6feaad3f8</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-01 04:04:18</sys_updated_on>
+        <user_criteria display_value="Guest User">76f09af6cb1200108ad442fcf7076dbf</user_criteria>
+    </kb_uc_cannot_read_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</application>
+        <file_path/>
+        <instance_id>02da4e7ddbfdb594ae4c9027c59619d5</instance_id>
+        <instance_name>dev182749</instance_name>
+        <name>kb_uc_cannot_read_mtom_f111214483169250b8bec7c6feaad3f8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_cannot_read_mtom"><kb_uc_cannot_read_mtom action="INSERT_OR_UPDATE"><kb_knowledge_base display_value="Loaner Vehicle Knowledge">49b02d0483169250b8bec7c6feaad3c6</kb_knowledge_base><sys_class_name>kb_uc_cannot_read_mtom</sys_class_name><sys_created_by>shari.lemonnier</sys_created_by><sys_created_on>2024-12-01 04:04:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f111214483169250b8bec7c6feaad3f8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Loaner Vehicle Knowledge.Guest User</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope><sys_update_name>kb_uc_cannot_read_mtom_f111214483169250b8bec7c6feaad3f8</sys_update_name><sys_updated_by>shari.lemonnier</sys_updated_by><sys_updated_on>2024-12-01 04:04:18</sys_updated_on><user_criteria display_value="Guest User">76f09af6cb1200108ad442fcf7076dbf</user_criteria></kb_uc_cannot_read_mtom></record_update>]]></payload>
+        <payload_hash>-999481209</payload_hash>
+        <record_name>Loaner Vehicle Knowledge.Guest User</record_name>
+        <reverted_from/>
+        <source>51cc1ec883ed1a10b8bec7c6feaad3aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-01 04:04:18</sys_created_on>
+        <sys_id>b511214483169250b8bec7c6feaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193806402f40000001</sys_recorded_at>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-01 04:04:18</sys_updated_on>
+        <type>Who Cannot Read Knowledge Base</type>
+        <update_guid>b91121440e16925082fce20f872b27fb</update_guid>
+        <update_guid_history>b91121440e16925082fce20f872b27fb:-999481209</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Loaner Vehicle Knowledge.Guest User">4a1a0a4883d69250b8bec7c6feaad38a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-01 07:03:27</sys_created_on>
+        <sys_db_object display_value="" name="kb_uc_cannot_read_mtom">kb_uc_cannot_read_mtom</sys_db_object>
+        <sys_id>2aca8eec740849a68a61592563825b29</sys_id>
+        <sys_metadata>f111214483169250b8bec7c6feaad3f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loaner Vehicle Knowledge.Guest User</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_scope_delete display_value="">3ac61e579acd4ef0a8eb4e291b6d2921</sys_scope_delete>
+        <sys_update_name>kb_uc_cannot_read_mtom_f111214483169250b8bec7c6feaad3f8</sys_update_name>
+        <sys_update_version display_value="kb_uc_cannot_read_mtom_f111214483169250b8bec7c6feaad3f8">b511214483169250b8bec7c6feaad3fc</sys_update_version>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-01 07:03:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

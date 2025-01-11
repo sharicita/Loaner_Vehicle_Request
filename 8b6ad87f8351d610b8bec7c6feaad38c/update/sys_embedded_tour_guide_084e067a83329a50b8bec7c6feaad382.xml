@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_guide">
+    <sys_embedded_tour_guide action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_parameters/>
+        <autolaunch_order>0</autolaunch_order>
+        <context>lva?id=lva_home&amp;gtd_portal_title=Loaner Vehicle Portal&amp;gtd_page_title=LVA Home</context>
+        <description/>
+        <has_concl>true</has_concl>
+        <has_intro>true</has_intro>
+        <name>Vehicle Availability by Status</name>
+        <options/>
+        <roles/>
+        <route_parameters/>
+        <sp_page display_value="lva_home">ad1e2d0a83c61a10b8bec7c6feaad380</sp_page>
+        <sp_portal display_value="Loaner Vehicle Portal">c6ac91c283861a10b8bec7c6feaad393</sp_portal>
+        <status>published</status>
+        <sys_class_name>sys_embedded_tour_guide</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2025-01-03 16:56:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>084e067a83329a50b8bec7c6feaad382</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Vehicle Availability by Status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sys_embedded_tour_guide_084e067a83329a50b8bec7c6feaad382</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2025-01-04 20:57:11</sys_updated_on>
+        <tour_id>TOUR0000023</tour_id>
+        <type>service_portal</type>
+    </sys_embedded_tour_guide>
+</record_update>

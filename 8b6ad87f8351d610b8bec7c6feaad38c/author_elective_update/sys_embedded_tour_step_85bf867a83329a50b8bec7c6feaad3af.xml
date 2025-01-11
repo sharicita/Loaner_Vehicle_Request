@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="DELETE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref display_value="xpath">f0bf867a83329a50b8bec7c6feaad3ad</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Vehicles that have been decommissioned can be seen by clicking &#39;Decommissioned&#39;.]]></content>
+        <guide display_value="Vehicle Availability by Status">084e067a83329a50b8bec7c6feaad382</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name/>
+        <options>{"url":"/lva?id=lva_home"}</options>
+        <order>6</order>
+        <placement>top</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2025-01-03 17:02:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>85bf867a83329a50b8bec7c6feaad3af</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_85bf867a83329a50b8bec7c6feaad3af</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2025-01-03 17:18:12</sys_updated_on>
+        <target/>
+        <target_ref display_value="xpath">f0bf867a83329a50b8bec7c6feaad3ad</target_ref>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>lva</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="DELETE" query="documentkey=85bf867a83329a50b8bec7c6feaad3af"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</application>
+        <file_path/>
+        <instance_id>02da4e7ddbfdb594ae4c9027c59619d5</instance_id>
+        <instance_name>dev182749</instance_name>
+        <name>sys_embedded_tour_step_85bf867a83329a50b8bec7c6feaad3af</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_embedded_tour_step"&gt;&lt;sys_embedded_tour_step action="INSERT_OR_UPDATE"&gt;&lt;action&gt;false&lt;/action&gt;&lt;action_event&gt;next&lt;/action_event&gt;&lt;action_target/&gt;&lt;action_target_ref display_value="xpath"&gt;f0bf867a83329a50b8bec7c6feaad3ad&lt;/action_target_ref&gt;&lt;active&gt;true&lt;/active&gt;&lt;content&gt;&lt;![CDATA[Vehicles that have been decommissioned can be seen by clicking &amp;#39;Decommissioned&amp;#39;.]]&gt;&lt;/content&gt;&lt;guide display_value="Vehicle Availability by Status"&gt;084e067a83329a50b8bec7c6feaad382&lt;/guide&gt;&lt;implicit&gt;false&lt;/implicit&gt;&lt;link/&gt;&lt;name/&gt;&lt;options&gt;{"url":"/lva?id=lva_home"}&lt;/options&gt;&lt;order&gt;6&lt;/order&gt;&lt;placement&gt;top&lt;/placement&gt;&lt;skippable&gt;false&lt;/skippable&gt;&lt;step_type&gt;step&lt;/step_type&gt;&lt;sys_class_name&gt;sys_embedded_tour_step&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shari.lemonnier&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-03 17:02:38&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;85bf867a83329a50b8bec7c6feaad3af&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva"&gt;8b6ad87f8351d610b8bec7c6feaad38c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Loaner Vehicle Request and Inventory"&gt;8b6ad87f8351d610b8bec7c6feaad38c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_embedded_tour_step_85bf867a83329a50b8bec7c6feaad3af&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;shari.lemonnier&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-03 17:18:12&lt;/sys_updated_on&gt;&lt;target/&gt;&lt;target_ref display_value="xpath"&gt;f0bf867a83329a50b8bec7c6feaad3ad&lt;/target_ref&gt;&lt;title/&gt;&lt;ui_version&gt;dynamic&lt;/ui_version&gt;&lt;view/&gt;&lt;window&gt;lva&lt;/window&gt;&lt;/sys_embedded_tour_step&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=85bf867a83329a50b8bec7c6feaad3af"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>606850400</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>51cc1ec883ed1a10b8bec7c6feaad3aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2025-01-03 17:18:12</sys_created_on>
+        <sys_id>4543d23283729a50b8bec7c6feaad372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1942d2cb5a10000001</sys_recorded_at>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2025-01-03 17:18:12</sys_updated_on>
+        <type>Guided Tour Step</type>
+        <update_guid>0d43d23277729a50e9c2cdb34a1e5971</update_guid>
+        <update_guid_history>0d43d23277729a50e9c2cdb34a1e5971:606850400,13335abe1a329a5046254e468e098f18:-339138588,10b1d2be11329a509c312c4b91becf0b:2044842307,16719e7ebf329a509b44b655199d739a:-339138588,89bf867a88329a50ee0cf8894deb4bb0:1673159060</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2025-01-03 17:18:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_embedded_tour_step">sys_embedded_tour_step</sys_db_object>
+        <sys_id>2ebe230ca39c4e789a0cd7c84476ee90</sys_id>
+        <sys_metadata>85bf867a83329a50b8bec7c6feaad3af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_scope_delete display_value="">3ac61e579acd4ef0a8eb4e291b6d2921</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_step_85bf867a83329a50b8bec7c6feaad3af</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_step_85bf867a83329a50b8bec7c6feaad3af">4543d23283729a50b8bec7c6feaad372</sys_update_version>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2025-01-03 17:18:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

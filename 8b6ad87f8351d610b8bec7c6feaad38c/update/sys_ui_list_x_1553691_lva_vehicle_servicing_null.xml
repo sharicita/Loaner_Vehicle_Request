@@ -132,19 +132,19 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>shari.lemonnier</sys_created_by>
-            <sys_created_on>2025-01-04 02:44:01</sys_created_on>
+            <sys_created_on>2024-11-01 22:08:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>99c4584b83fa9a50b8bec7c6feaad32f</sys_id>
+            <sys_id>d4a9fea2832dd610b8bec7c6feaad37f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1553691_lva_vehicle_servicing</sys_name>
-            <sys_package/>
+            <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
             <sys_policy/>
             <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
-            <sys_update_name/>
+            <sys_update_name>sys_ui_list_x_1553691_lva_vehicle_servicing_null</sys_update_name>
             <sys_updated_by>shari.lemonnier</sys_updated_by>
-            <sys_updated_on>2025-01-04 02:44:01</sys_updated_on>
-            <sys_user display_value="Shari LeMonnier">862767af835d9610b8bec7c6feaad36d</sys_user>
+            <sys_updated_on>2024-11-01 22:08:50</sys_updated_on>
+            <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

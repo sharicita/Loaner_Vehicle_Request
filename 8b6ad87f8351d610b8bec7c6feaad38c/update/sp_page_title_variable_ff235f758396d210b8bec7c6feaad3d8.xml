@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page_title_variable">
+    <sp_page_title_variable action="INSERT_OR_UPDATE">
+        <column_name>sys_id</column_name>
+        <filter_condition/>
+        <id_parameter>sys_kb_id</id_parameter>
+        <order>200</order>
+        <source_field>short_description</source_field>
+        <source_table>kb_knowledge</source_table>
+        <sp_page display_value="lva_kb_article_view_1">96fd437d8356d210b8bec7c6feaad3a0</sp_page>
+        <sys_class_name>sp_page_title_variable</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-06 22:53:12</sys_created_on>
+        <sys_id>ff235f758396d210b8bec7c6feaad3d8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>%short_descr</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sp_page_title_variable_ff235f758396d210b8bec7c6feaad3d8</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-06 22:57:24</sys_updated_on>
+        <variable>%short_descr</variable>
+    </sp_page_title_variable>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="39d1e28083215a10b8bec7c6feaad360" label="Loaner Vehicle Catalog" max_length="40" name="x_1553691_lva_loaner_vehicle_catalog" type="collection">
+        <element display="true" label="Display name" mandatory="true" max_length="150" name="display_name" read_only="true" type="string"/>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Available" sequence="10" value="available"/>
+                <element inactive_on_update="false" label="Unavailable" sequence="20" value="unavailable"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="30" value="decommissioned"/>
+            </choice>
+        </element>
+        <element label="Vehicle Description" mandatory="true" max_length="1000" name="vehicle_description" type="string"/>
+        <element label="Vehicle Make" mandatory="true" max_length="40" name="vehicle_make" type="string"/>
+        <element label="Vehicle Model" mandatory="true" max_length="40" name="vehicle_model" type="string"/>
+        <element label="Vehicle Year" mandatory="true" max_length="40" name="vehicle_year" type="string"/>
+    </element>
+</database>

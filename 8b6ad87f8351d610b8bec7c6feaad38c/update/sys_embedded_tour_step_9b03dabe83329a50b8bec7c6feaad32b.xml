@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref display_value="xpath">d703dabe83329a50b8bec7c6feaad329</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[<h4>Notice how all available vehicles are now Ford.</h4>]]></content>
+        <guide display_value="Vehicle Availability by Status">084e067a83329a50b8bec7c6feaad382</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name/>
+        <options>{"url":"/lva?id=lva_home&amp;sysparm_make=Ford"}</options>
+        <order>4</order>
+        <placement>top</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2025-01-03 17:17:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9b03dabe83329a50b8bec7c6feaad32b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_9b03dabe83329a50b8bec7c6feaad32b</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2025-01-04 19:21:45</sys_updated_on>
+        <target/>
+        <target_ref display_value="xpath">d703dabe83329a50b8bec7c6feaad329</target_ref>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>lva</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=9b03dabe83329a50b8bec7c6feaad32b"/>
+</record_update>

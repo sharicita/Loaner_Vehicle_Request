@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="DELETE">
+        <child display_value="LVA Carousel">8d742d4883169250b8bec7c6feaad31a</child>
+        <cloned>2024-12-01 04:19:00</cloned>
+        <last_validated>2024-12-01 04:19:00</last_validated>
+        <parent display_value="Carousel">cf1a5153cb21020000f8d856634c9c3c</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script/&gt;&lt;controller_as/&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance_carousel&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;interval&lt;/field_list&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;Carousel&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[data.slides = $sp.getRelatedList('sp_carousel_slide','carousel');]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-08-02 18:57:31&lt;/sys_created_on&gt;&lt;sys_id&gt;cf1a5153cb21020000f8d856634c9c3c&lt;/sys_id&gt;&lt;sys_mod_count&gt;68&lt;/sys_mod_count&gt;&lt;sys_name&gt;Carousel&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;bf9501778dc20210d0ad51af41866327&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_cf1a5153cb21020000f8d856634c9c3c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-02-03 06:27:08&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="pull-in"&gt;
+  &lt;uib-carousel interval="options.interval"&gt;
+    &lt;uib-slide ng-repeat="slide in ::data.slides" active="slide.active"&gt;
+      &lt;div class="container"&gt;
+        &lt;a href="{{::slide.url}}" title="${Open carousel item}: {{::slide.name}}"&gt;
+          &lt;img ng-src="{{::slide.background}}" style="margin:auto; width:100%;" role="presentation"&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/uib-slide&gt;
+  &lt;/uib-carousel&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-01 04:19:00</sys_created_on>
+        <sys_id>89742d4883169250b8bec7c6feaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8d742d4883169250b8bec7c6feaad31a</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_89742d4883169250b8bec7c6feaad31f</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-01 04:19:00</sys_updated_on>
+    </sp_rel_widget_clone>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</application>
+        <file_path/>
+        <instance_id>02da4e7ddbfdb594ae4c9027c59619d5</instance_id>
+        <instance_name>dev182749</instance_name>
+        <name>sp_rel_widget_clone_89742d4883169250b8bec7c6feaad31f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone"><sp_rel_widget_clone action="INSERT_OR_UPDATE"><child display_value="LVA Carousel">8d742d4883169250b8bec7c6feaad31a</child><cloned>2024-12-01 04:19:00</cloned><last_validated>2024-12-01 04:19:00</last_validated><parent display_value="Carousel">cf1a5153cb21020000f8d856634c9c3c</parent><payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script/&gt;&lt;controller_as/&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance_carousel&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;interval&lt;/field_list&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;Carousel&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[data.slides = $sp.getRelatedList('sp_carousel_slide','carousel');]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-08-02 18:57:31&lt;/sys_created_on&gt;&lt;sys_id&gt;cf1a5153cb21020000f8d856634c9c3c&lt;/sys_id&gt;&lt;sys_mod_count&gt;68&lt;/sys_mod_count&gt;&lt;sys_name&gt;Carousel&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;bf9501778dc20210d0ad51af41866327&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_cf1a5153cb21020000f8d856634c9c3c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-02-03 06:27:08&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="pull-in"&gt;
+  &lt;uib-carousel interval="options.interval"&gt;
+    &lt;uib-slide ng-repeat="slide in ::data.slides" active="slide.active"&gt;
+      &lt;div class="container"&gt;
+        &lt;a href="{{::slide.url}}" title="${Open carousel item}: {{::slide.name}}"&gt;
+          &lt;img ng-src="{{::slide.background}}" style="margin:auto; width:100%;" role="presentation"&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/uib-slide&gt;
+  &lt;/uib-carousel&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload><sys_class_name>sp_rel_widget_clone</sys_class_name><sys_created_by>shari.lemonnier</sys_created_by><sys_created_on>2024-12-01 04:19:00</sys_created_on><sys_id>89742d4883169250b8bec7c6feaad31f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>8d742d4883169250b8bec7c6feaad31a</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope><sys_update_name>sp_rel_widget_clone_89742d4883169250b8bec7c6feaad31f</sys_update_name><sys_updated_by>shari.lemonnier</sys_updated_by><sys_updated_on>2024-12-01 04:19:00</sys_updated_on></sp_rel_widget_clone></record_update>]]></payload>
+        <payload_hash>-1009551</payload_hash>
+        <record_name>8d742d4883169250b8bec7c6feaad31a</record_name>
+        <reverted_from/>
+        <source>51cc1ec883ed1a10b8bec7c6feaad3aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-01 04:19:00</sys_created_on>
+        <sys_id>85742d4883169250b8bec7c6feaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1938071779b0000001</sys_recorded_at>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-01 04:19:00</sys_updated_on>
+        <type>Widget Clone</type>
+        <update_guid>89742d4844169250526183a34d20d221</update_guid>
+        <update_guid_history>89742d4844169250526183a34d20d221:-1009551</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">fbe9438583c31210b8bec7c6feaad33a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2025-01-10 21:03:23</sys_created_on>
+        <sys_db_object display_value="" name="sp_rel_widget_clone">sp_rel_widget_clone</sys_db_object>
+        <sys_id>59b0d22539904741badd5b4af839e239</sys_id>
+        <sys_metadata>89742d4883169250b8bec7c6feaad31f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8d742d4883169250b8bec7c6feaad31a</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_scope_delete display_value="">3ac61e579acd4ef0a8eb4e291b6d2921</sys_scope_delete>
+        <sys_update_name>sp_rel_widget_clone_89742d4883169250b8bec7c6feaad31f</sys_update_name>
+        <sys_update_version display_value="sp_rel_widget_clone_89742d4883169250b8bec7c6feaad31f">85742d4883169250b8bec7c6feaad322</sys_update_version>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2025-01-10 21:03:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <display_field>sys_name</display_field>
+        <field_list/>
+        <filter table="sp_carousel_slide">carousel=8d742d4883169250b8bec7c6feaad32e<item display_table="sp_instance_carousel" display_value="LVA Carousel" endquery="false" field="carousel" goto="false" newquery="false" operator="=" or="false" value="8d742d4883169250b8bec7c6feaad32e"/>
+        </filter>
+        <glyph>play-circle-o</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">4f5f9a8683ca1a10b8bec7c6feaad3c5</sp_column>
+        <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>
+        <sp_widget display_value="Slick Carousel">0f41b0b94f6b66000241a3b11310c7c2</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-01 05:06:12</sys_created_on>
+        <sys_id>244fe5c483569250b8bec7c6feaad352</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Our Vehicles</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sp_instance_vlist_244fe5c483569250b8bec7c6feaad352</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-03 00:08:12</sys_updated_on>
+        <table>sp_carousel_slide</table>
+        <title>Our Vehicles</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"accessibility": {
+		"value": "",
+		"displayValue": ""
+	},
+	"adaptiveHeight": {
+		"value": "",
+		"displayValue": ""
+	},
+	"arrows": {
+		"value": "",
+		"displayValue": ""
+	},
+	"autoplay": {
+		"value": "",
+		"displayValue": ""
+	},
+	"autoplaySpeed": {
+		"value": null,
+		"displayValue": ""
+	},
+	"centerMode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"centerPadding": {
+		"value": "",
+		"displayValue": ""
+	},
+	"cssEase": {
+		"value": "",
+		"displayValue": ""
+	},
+	"dots": {
+		"value": "",
+		"displayValue": ""
+	},
+	"dotsClass": {
+		"value": "",
+		"displayValue": ""
+	},
+	"draggable": {
+		"value": "",
+		"displayValue": ""
+	},
+	"easing": {
+		"value": "",
+		"displayValue": ""
+	},
+	"edgeFriction": {
+		"value": null,
+		"displayValue": ""
+	},
+	"fade": {
+		"value": "",
+		"displayValue": ""
+	},
+	"focusOnSelect": {
+		"value": "",
+		"displayValue": ""
+	},
+	"infinite": {
+		"value": "",
+		"displayValue": ""
+	},
+	"initialSlide": {
+		"value": null,
+		"displayValue": ""
+	},
+	"lazyLoad": {
+		"value": "",
+		"displayValue": ""
+	},
+	"mobileFirst": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"pauseOnFocus": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"pauseOnHover": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"pauseOnDotsHover": {
+		"value": "",
+		"displayValue": ""
+	},
+	"respondTo": {
+		"value": "",
+		"displayValue": ""
+	},
+	"rows": {
+		"value": null,
+		"displayValue": ""
+	},
+	"rtl": {
+		"value": "",
+		"displayValue": ""
+	},
+	"slide": {
+		"value": "",
+		"displayValue": ""
+	},
+	"slidesPerRow": {
+		"value": null,
+		"displayValue": ""
+	},
+	"slidesToShow": {
+		"value": null,
+		"displayValue": ""
+	},
+	"slidesToScroll": {
+		"value": null,
+		"displayValue": ""
+	},
+	"speed": {
+		"value": null,
+		"displayValue": ""
+	},
+	"swipe": {
+		"value": "",
+		"displayValue": ""
+	},
+	"swipeToSlide": {
+		"value": "",
+		"displayValue": ""
+	},
+	"touchMove": {
+		"value": "",
+		"displayValue": ""
+	},
+	"touchThreshold": {
+		"value": null,
+		"displayValue": ""
+	},
+	"useCSS": {
+		"value": "",
+		"displayValue": ""
+	},
+	"useTransform": {
+		"value": "",
+		"displayValue": ""
+	},
+	"variableWidth": {
+		"value": "",
+		"displayValue": ""
+	},
+	"vertical": {
+		"value": "",
+		"displayValue": ""
+	},
+	"verticalSwiping": {
+		"value": "",
+		"displayValue": ""
+	},
+	"waitForAnimate": {
+		"value": "",
+		"displayValue": ""
+	},
+	"zIndex": {
+		"value": null,
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=244fe5c483569250b8bec7c6feaad352"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</application>
+        <file_path/>
+        <instance_id>02da4e7ddbfdb594ae4c9027c59619d5</instance_id>
+        <instance_name>dev182749</instance_name>
+        <name>sp_instance_vlist_244fe5c483569250b8bec7c6feaad352</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;&lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css/&gt;&lt;display_field&gt;sys_name&lt;/display_field&gt;&lt;field_list/&gt;&lt;filter table="sp_carousel_slide"&gt;carousel=8d742d4883169250b8bec7c6feaad32e&lt;item display_table="sp_instance_carousel" display_value="LVA Carousel" endquery="false" field="carousel" goto="false" newquery="false" operator="=" or="false" value="8d742d4883169250b8bec7c6feaad32e"/&gt;&lt;/filter&gt;&lt;glyph&gt;play-circle-o&lt;/glyph&gt;&lt;id/&gt;&lt;maximum_entries&gt;5&lt;/maximum_entries&gt;&lt;order&gt;1&lt;/order&gt;&lt;order_by/&gt;&lt;order_direction&gt;asc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;4f5f9a8683ca1a10b8bec7c6feaad3c5&lt;/sp_column&gt;&lt;sp_page display_value="sc_cat_item"&gt;9f12251147132100ba13a5554ee490f4&lt;/sp_page&gt;&lt;sp_widget display_value="Slick Carousel"&gt;0f41b0b94f6b66000241a3b11310c7c2&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shari.lemonnier&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-01 05:06:12&lt;/sys_created_on&gt;&lt;sys_id&gt;244fe5c483569250b8bec7c6feaad352&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Our Vehicles&lt;/sys_name&gt;&lt;sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva"&gt;8b6ad87f8351d610b8bec7c6feaad38c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Loaner Vehicle Request and Inventory"&gt;8b6ad87f8351d610b8bec7c6feaad38c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_vlist_244fe5c483569250b8bec7c6feaad352&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;shari.lemonnier&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-03 00:08:12&lt;/sys_updated_on&gt;&lt;table&gt;sp_carousel_slide&lt;/table&gt;&lt;title&gt;Our Vehicles&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"accessibility": {
+		"value": "",
+		"displayValue": ""
+	},
+	"adaptiveHeight": {
+		"value": "",
+		"displayValue": ""
+	},
+	"arrows": {
+		"value": "",
+		"displayValue": ""
+	},
+	"autoplay": {
+		"value": "",
+		"displayValue": ""
+	},
+	"autoplaySpeed": {
+		"value": null,
+		"displayValue": ""
+	},
+	"centerMode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"centerPadding": {
+		"value": "",
+		"displayValue": ""
+	},
+	"cssEase": {
+		"value": "",
+		"displayValue": ""
+	},
+	"dots": {
+		"value": "",
+		"displayValue": ""
+	},
+	"dotsClass": {
+		"value": "",
+		"displayValue": ""
+	},
+	"draggable": {
+		"value": "",
+		"displayValue": ""
+	},
+	"easing": {
+		"value": "",
+		"displayValue": ""
+	},
+	"edgeFriction": {
+		"value": null,
+		"displayValue": ""
+	},
+	"fade": {
+		"value": "",
+		"displayValue": ""
+	},
+	"focusOnSelect": {
+		"value": "",
+		"displayValue": ""
+	},
+	"infinite": {
+		"value": "",
+		"displayValue": ""
+	},
+	"initialSlide": {
+		"value": null,
+		"displayValue": ""
+	},
+	"lazyLoad": {
+		"value": "",
+		"displayValue": ""
+	},
+	"mobileFirst": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"pauseOnFocus": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"pauseOnHover": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"pauseOnDotsHover": {
+		"value": "",
+		"displayValue": ""
+	},
+	"respondTo": {
+		"value": "",
+		"displayValue": ""
+	},
+	"rows": {
+		"value": null,
+		"displayValue": ""
+	},
+	"rtl": {
+		"value": "",
+		"displayValue": ""
+	},
+	"slide": {
+		"value": "",
+		"displayValue": ""
+	},
+	"slidesPerRow": {
+		"value": null,
+		"displayValue": ""
+	},
+	"slidesToShow": {
+		"value": null,
+		"displayValue": ""
+	},
+	"slidesToScroll": {
+		"value": null,
+		"displayValue": ""
+	},
+	"speed": {
+		"value": null,
+		"displayValue": ""
+	},
+	"swipe": {
+		"value": "",
+		"displayValue": ""
+	},
+	"swipeToSlide": {
+		"value": "",
+		"displayValue": ""
+	},
+	"touchMove": {
+		"value": "",
+		"displayValue": ""
+	},
+	"touchThreshold": {
+		"value": null,
+		"displayValue": ""
+	},
+	"useCSS": {
+		"value": "",
+		"displayValue": ""
+	},
+	"useTransform": {
+		"value": "",
+		"displayValue": ""
+	},
+	"variableWidth": {
+		"value": "",
+		"displayValue": ""
+	},
+	"vertical": {
+		"value": "",
+		"displayValue": ""
+	},
+	"verticalSwiping": {
+		"value": "",
+		"displayValue": ""
+	},
+	"waitForAnimate": {
+		"value": "",
+		"displayValue": ""
+	},
+	"zIndex": {
+		"value": null,
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_vlist&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=244fe5c483569250b8bec7c6feaad352"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2033683889</payload_hash>
+        <record_name>Our Vehicles</record_name>
+        <reverted_from/>
+        <source>51cc1ec883ed1a10b8bec7c6feaad3aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-03 00:08:12</sys_created_on>
+        <sys_id>3e3efa2483d25650b8bec7c6feaad37d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19389d892b30000001</sys_recorded_at>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-03 00:08:12</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>f23efa2494d25650aa698312be0aef7d</update_guid>
+        <update_guid_history>f23efa2494d25650aa698312be0aef7d:2033683889,4d2e7a249ad25650bea9cc9a46b7a664:-249336416,b2ddf224c6d256503372360fba7a22c8:1430532867,cbf6322c2692565035b0413d63526d6e:-1284208686,4265be6809925650b0962248d7bd09cf:-1424379018,f935ba68d5925650ec7f7421304903fa:-1234196034,f486d2887f1a9250fd22bb6c491e8efd:-1410714908,ff76d288021a9250738b442f678a5696:-321986822,42efe9089d5692502ec5bb8dfbb8576e:-1549443941,ec4fe5c4cf5692500db6e9f4c0b9b353:168451792</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Our Vehicles">8fc1476483d25650b8bec7c6feaad3cd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-03 00:23:47</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>05d89ce09f6d4c6c803d1cb54a85d290</sys_id>
+        <sys_metadata>244fe5c483569250b8bec7c6feaad352</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Our Vehicles</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_scope_delete display_value="">3ac61e579acd4ef0a8eb4e291b6d2921</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_244fe5c483569250b8bec7c6feaad352</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_244fe5c483569250b8bec7c6feaad352">3e3efa2483d25650b8bec7c6feaad37d</sys_update_version>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-03 00:23:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
