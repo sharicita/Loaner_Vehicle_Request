@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a86e12758392d210b8bec7c6feaad3c3</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Shari LeMonnier"&gt;862767af835d9610b8bec7c6feaad36d&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;true&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;true&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;generated_with_now_assist&gt;false&lt;/generated_with_now_assist&gt;
+        &lt;helpful_count&gt;0&lt;/helpful_count&gt;
+        &lt;image/&gt;
+        &lt;instrumentation_metadata&gt;{"firstLoadTimestamp":1733511687358,"isGenAiGenerated":false,"isGenAiMultiTaskCancelled":false,"taskList":[],"timeTakenToFirstSave":26127,"timeTakenToPublish":496417}&lt;/instrumentation_metadata&gt;
+        &lt;kb_category display_value="Documentation"&gt;80dd68d983521210b8bec7c6feaad300&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="Loaner Vehicle Knowledge"&gt;49b02d0483169250b8bec7c6feaad3c6&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description&gt;Loaner Vehicle Application Scope Application Tables: NAME VALUE DESCRIPTION Vehicle Catalog x_1553691_lva_loaner_vehicle_catalog&lt;/meta_description&gt;
+        &lt;number&gt;KB0010007&lt;/number&gt;
+        &lt;published&gt;2024-12-06&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Loaner Vehicle App Documentation&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;shari.lemonnier&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-12-06 19:01:53&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;a86e12758392d210b8bec7c6feaad3c3&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;shari.lemonnier&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-01-04 01:32:21&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;19&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;h2&gt;Loaner Vehicle Application Scope&lt;/h2&gt;
+&lt;h3&gt;Application Tables:&lt;/h3&gt;
+&lt;table style="border-collapse: collapse; width: 100%; border-width: 1px;" border="1"&gt;&lt;colgroup&gt;&lt;col style="width: 23.4129%;" /&gt;&lt;col style="width: 29.845%;" /&gt;&lt;col style="width: 46.6971%;" /&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;NAME&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;VALUE&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;DESCRIPTION&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Vehicle Catalog&lt;/td&gt;&lt;td&gt;
+&lt;div&gt;x_1553691_lva_loaner_vehicle_catalog&lt;/div&gt;
+&lt;/td&gt;&lt;td&gt;Contains all the information for each vehicle including an image and the vehicle&amp;#39;s current status.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Vehicle Tracker&lt;/td&gt;&lt;td&gt;
+&lt;div&gt;x_1553691_lva_vehicle_tracker&lt;/div&gt;
+&lt;/td&gt;&lt;td&gt;Tracks the status of a vehicle when a vehicle is requested. It is linked to a request item and the vehicle number in the vehicle catalog table. It contains the name of the person the vehicle was requested for, the location it is needed at, the delivery date, and the expected delivery return date.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Vehicle Servicing&lt;/td&gt;&lt;td&gt;
+&lt;div&gt;x_1553691_lva_vehicle_servicing&lt;/div&gt;
+&lt;/td&gt;&lt;td&gt;Record for tracking vehicle servicing when there are issues with a vehicle. &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;Application Business Rules:&lt;/h3&gt;
+&lt;table style="border-collapse: collapse; width: 100.02%; height: 277.159px;" border="1"&gt;&lt;colgroup&gt;&lt;col style="width: 33.3609%;" /&gt;&lt;col style="width: 33.3609%;" /&gt;&lt;col style="width: 33.3609%;" /&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style="height: 15.3977px;"&gt;&lt;td style="height: 15.3977px;"&gt;&lt;strong&gt;NAME&lt;/strong&gt;&lt;/td&gt;&lt;td style="height: 15.3977px;"&gt;&lt;strong&gt;TABLE&lt;/strong&gt;&lt;/td&gt;&lt;td style="height: 15.3977px;"&gt;&lt;strong&gt;DESCRIPTION&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="height: 46.1932px;"&gt;&lt;td style="height: 46.1932px;"&gt;Update vehicle tracking on close&lt;/td&gt;&lt;td style="height: 46.1932px;"&gt;Vehicle Servicing [x_1553691_lva_vehicle_servicing]&lt;/td&gt;&lt;td style="height: 46.1932px;"&gt;When a vehicle servicing record is closed, update the related vehicle tracker record and vehicle status to reflect the changes.&lt;/td&gt;&lt;/tr&gt;&lt;tr style="height: 169.375px;"&gt;&lt;td style="height: 169.375px;"&gt;Vehicle tracker status&lt;/td&gt;&lt;td style="height: 169.375px;"&gt;Vehicle Tracker [x_1553691_lva_vehicle_tracker]&lt;/td&gt;&lt;td style="height: 169.375px;"&gt;Update the vehicle status in the catalog.&lt;br /&gt;&lt;br /&gt;Set vehicle status to unavailable if the vehicle_status is any of the following:&lt;br /&gt; 
+&lt;div&gt;
+&lt;div style="padding-left: 40px;"&gt;pending_release&lt;br /&gt;out_on_field&lt;br /&gt;returned_for_inspection&lt;br /&gt;sent_for_servicing&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;Set vehicle status to available when vehicle_status is:&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div style="padding-left: 40px;"&gt;returned_to_warehouse&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;Set vehicle status to decommissioned when vehicle_status is:&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div style="padding-left: 40px;"&gt;decommissioned&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr style="height: 15.3977px;"&gt;&lt;td style="height: 15.3977px;"&gt;Vehicle Servicing Record&lt;/td&gt;&lt;td style="height: 15.3977px;"&gt;Vehicle Tracker [x_1553691_lva_vehicle_tracker]&lt;/td&gt;&lt;td style="height: 15.3977px;"&gt;
+&lt;p&gt;When vehicle status changes to sent for servicing, check for a related servicing record. If one does not exist, create a new record with the following fields populated:&lt;/p&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;strong&gt;Vehicle Tracker -&lt;/strong&gt; Vehicle Tracker from which the Servicing ticket was opened &lt;br /&gt;   &lt;br /&gt;&lt;strong&gt;Vehicle -&lt;/strong&gt; Vehicle set on the Vehicle Tracker &lt;br /&gt;   &lt;br /&gt;&lt;strong&gt;Vehicle Status -&lt;/strong&gt; In Service &lt;br /&gt;   &lt;br /&gt;&lt;strong&gt;Date send for Servicing - &lt;/strong&gt;The Date from when the servicing ticket was created &lt;br /&gt;   &lt;br /&gt;&lt;strong&gt;Ticket Status - &lt;/strong&gt;Open&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr style="height: 30.7955px;"&gt;&lt;td style="height: 30.7955px;"&gt;Disallow closure when in service&lt;/td&gt;&lt;td style="height: 30.7955px;"&gt;Vehicle Servicing [x_1553691_lva_vehicle_servicing]&lt;/td&gt;&lt;td style="height: 30.7955px;"&gt;
+&lt;p&gt;When vehicle status is in service and ticket status changes to closed, abort action and display message:&lt;/p&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;span style="background-color: rgb(var(--sn-tinymce_content-background,var(--now-form-field--background-color,var(--now-color_background--primary,var(--now-color--neutral-0,255,255,255))))); color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28)))));"&gt;&amp;#34;You are unable to close this ticket because the Vehicle Status is In Service.&amp;#34;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;Application Client Scripts:&lt;/h3&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;Application Notifications:&lt;/h3&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;Application Process/Flow:&lt;/h3&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;General&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=a86e12758392d210b8bec7c6feaad3c3"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2025-01-13 19:04:17</sys_created_on>
+        <sys_id>147b8e4e83035610b8bec7c6feaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0010007</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sys_metadata_link_147b8e4e83035610b8bec7c6feaad3f4</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2025-01-13 19:04:17</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

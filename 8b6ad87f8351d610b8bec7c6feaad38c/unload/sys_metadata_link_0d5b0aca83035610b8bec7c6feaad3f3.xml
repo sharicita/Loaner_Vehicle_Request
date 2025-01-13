@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload</directory>
+        <documentkey>49b02d0483169250b8bec7c6feaad3c6</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_knowledge_base">
+    <kb_knowledge_base action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</application>
+        <approval_description/>
+        <article_validity/>
+        <card_color/>
+        <data_policy/>
+        <description>Knowledge base for the loaner vehicle application</description>
+        <disable_category_editing>false</disable_category_editing>
+        <disable_commenting>true</disable_commenting>
+        <disable_mark_as_helpful>false</disable_mark_as_helpful>
+        <disable_rating>false</disable_rating>
+        <disable_suggesting>true</disable_suggesting>
+        <enable_socialqa>false</enable_socialqa>
+        <icon/>
+        <kb_managers/>
+        <kb_version>3</kb_version>
+        <mandatory_fields/>
+        <order/>
+        <owner display_value="Shari LeMonnier">862767af835d9610b8bec7c6feaad36d</owner>
+        <question_annotation/>
+        <retire_workflow display_value="Knowledge - Instant Retire">3d18ef12c30031000096dfdc64d3aeb6</retire_workflow>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2024-12-01 04:04:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>49b02d0483169250b8bec7c6feaad3c6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2024-12-04 21:37:40</sys_updated_on>
+        <table>kb_knowledge</table>
+        <template>active=true^EQ</template>
+        <title>Loaner Vehicle Knowledge</title>
+        <workflow display_value="Knowledge - Instant Publish">fbe441019f112100d8f8700c267fcf1a</workflow>
+    </kb_knowledge_base>
+    <sys_translated_text action="delete_multiple" query="documentkey=49b02d0483169250b8bec7c6feaad3c6"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2025-01-13 19:03:48</sys_created_on>
+        <sys_id>0d5b0aca83035610b8bec7c6feaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loaner Vehicle Knowledge</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sys_metadata_link_0d5b0aca83035610b8bec7c6feaad3f3</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2025-01-13 19:03:48</sys_updated_on>
+        <tablename>kb_knowledge_base</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7ba4f05583921210b8bec7c6feaad341</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Shari LeMonnier"&gt;862767af835d9610b8bec7c6feaad36d&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;true&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;true&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;generated_with_now_assist&gt;false&lt;/generated_with_now_assist&gt;
+        &lt;helpful_count&gt;0&lt;/helpful_count&gt;
+        &lt;image/&gt;
+        &lt;instrumentation_metadata&gt;{"firstLoadTimestamp":1733349761550,"isGenAiGenerated":false,"isGenAiMultiTaskCancelled":false,"taskList":[],"timeTakenToFirstSave":50955,"timeTakenToPublish":578543}&lt;/instrumentation_metadata&gt;
+        &lt;kb_category display_value="Policy"&gt;0aa478d183921210b8bec7c6feaad3ad&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="Loaner Vehicle Knowledge"&gt;49b02d0483169250b8bec7c6feaad3c6&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description&gt;Terms of Service 1. Acceptance of Terms By using the Loaner Vehicles app (referred to as "the App"),&lt;/meta_description&gt;
+        &lt;number&gt;KB0010003&lt;/number&gt;
+        &lt;published&gt;2024-12-04&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Terms of Service&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;shari.lemonnier&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-12-04 22:03:32&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;7ba4f05583921210b8bec7c6feaad341&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;shari.lemonnier&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-12-04 22:12:20&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;0&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;h3&gt;Terms of Service&lt;/h3&gt;
+&lt;h4&gt;1. Acceptance of Terms&lt;/h4&gt;
+&lt;p&gt;By using the Loaner Vehicles app (referred to as &amp;#34;the App&amp;#34;), you agree to be bound by these Terms of Service (&amp;#34;Terms&amp;#34;). If you do not agree to these Terms, you must not use the App.&lt;/p&gt;
+&lt;h4&gt;2. Eligibility&lt;/h4&gt;
+&lt;p&gt;To use the App, you must be at least 18 years old and meet the eligibility criteria set by the App. You must provide accurate and complete information when creating an account.&lt;/p&gt;
+&lt;h4&gt;3. Account Registration&lt;/h4&gt;
+&lt;p&gt;You are responsible for maintaining the confidentiality of your account credentials and for any activities that occur under your account. Notify us immediately if you suspect any unauthorized use of your account.&lt;/p&gt;
+&lt;h4&gt;4. Use of the App&lt;/h4&gt;
+&lt;p&gt;You agree to use the App only for lawful purposes and in accordance with these Terms. You must not:&lt;/p&gt;
+&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;
+&lt;p&gt;Use the App for any illegal or unauthorized purpose.&lt;/p&gt;
+&lt;/li&gt;&lt;li&gt;
+&lt;p&gt;Interfere with or disrupt the App or its servers.&lt;/p&gt;
+&lt;/li&gt;&lt;li&gt;
+&lt;p&gt;Violate any applicable laws or regulations.&lt;/p&gt;
+&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;5. Vehicle Use&lt;/h4&gt;
+&lt;p&gt;When using a loaner vehicle:&lt;/p&gt;
+&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;
+&lt;p&gt;You must comply with all applicable traffic laws and regulations.&lt;/p&gt;
+&lt;/li&gt;&lt;li&gt;
+&lt;p&gt;You are responsible for the vehicle during the rental period, including any damages or fines incurred.&lt;/p&gt;
+&lt;/li&gt;&lt;li&gt;
+&lt;p&gt;You must return the vehicle in the same condition as it was provided.&lt;/p&gt;
+&lt;/li&gt;&lt;/ul&gt;
+&lt;h4&gt;6. Fees and Payment&lt;/h4&gt;
+&lt;p&gt;You agree to pay all fees associated with the use of the App and the loaner vehicles. Payment terms and conditions will be provided at the time of booking.&lt;/p&gt;
+&lt;h4&gt;7. Cancellation and Refunds&lt;/h4&gt;
+&lt;p&gt;Cancellation and refund policies are outlined in the App. You may be subject to cancellation fees if you cancel a booking after the specified period.&lt;/p&gt;
+&lt;h4&gt;8. Limitation of Liability&lt;/h4&gt;
+&lt;p&gt;To the fullest extent permitted by law, Loaner Vehicles will not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the App or the loaner vehicles.&lt;/p&gt;
+&lt;h4&gt;9. Indemnification&lt;/h4&gt;
+&lt;p&gt;You agree to indemnify, defend, and hold harmless Loaner Vehicles and its affiliates from any claims, liabilities, damages, losses, and expenses arising out of or related to your use of the App or the loaner vehicles.&lt;/p&gt;
+&lt;h4&gt;10. Changes to Terms&lt;/h4&gt;
+&lt;p&gt;We may update these Terms from time to time. We will notify you of any changes by posting the new Terms on the App. Your continued use of the App after such changes constitutes your acceptance of the new Terms.&lt;/p&gt;
+&lt;h4&gt;11. Contact Information&lt;/h4&gt;
+&lt;p&gt;If you have any questions about these Terms, please contact us at &lt;button type="button"&gt;support&amp;#64;example.com&lt;/button&gt;.&lt;/p&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;General&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=7ba4f05583921210b8bec7c6feaad341"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2025-01-13 19:04:17</sys_created_on>
+        <sys_id>187b420e83035610b8bec7c6feaad3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0010003</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sys_metadata_link_187b420e83035610b8bec7c6feaad3d7</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2025-01-13 19:04:17</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>494a028883d69250b8bec7c6feaad31d</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Shari LeMonnier"&gt;862767af835d9610b8bec7c6feaad36d&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;true&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;true&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;generated_with_now_assist&gt;false&lt;/generated_with_now_assist&gt;
+        &lt;helpful_count&gt;2&lt;/helpful_count&gt;
+        &lt;image/&gt;
+        &lt;instrumentation_metadata&gt;{"firstLoadTimestamp":1733036651762,"isGenAiGenerated":false,"isGenAiMultiTaskCancelled":false,"taskList":[],"timeTakenToFirstSave":746675,"timeTakenToPublish":1273076}&lt;/instrumentation_metadata&gt;
+        &lt;kb_category display_value="FAQ"&gt;1cfda8d983521210b8bec7c6feaad38e&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="Loaner Vehicle Knowledge"&gt;49b02d0483169250b8bec7c6feaad3c6&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description&gt;How to Request a Loaner Vehicle for Work Our Loaner Vehicle program offers contractors convenient access&lt;/meta_description&gt;
+        &lt;number&gt;KB0010001&lt;/number&gt;
+        &lt;published&gt;2024-12-01&lt;/published&gt;
+        &lt;rating&gt;5&lt;/rating&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Loaner Vehicle Request Process&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;shari.lemonnier&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-12-01 07:16:38&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;494a028883d69250b8bec7c6feaad31d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;shari.lemonnier&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-12-04 21:34:01&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;58&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;h1&gt;How to Request a Loaner Vehicle for Work&lt;/h1&gt;
+&lt;h4&gt;Our Loaner Vehicle program offers contractors convenient access to vehicles for work purposes. This guide explains the available vehicles and the process for submitting a request through the Loaner Vehicle Online Portal.&lt;/h4&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;Available Vehicles&lt;br /&gt;&lt;br /&gt;&lt;/h3&gt;
+&lt;h4&gt;We offer the following vehicles to meet your needs&lt;br /&gt;&lt;br /&gt;&lt;/h4&gt;
+&lt;ol style="list-style-position: inside;"&gt;&lt;li&gt;&lt;strong&gt;Transit 350 HD Cargo Van&lt;/strong&gt;
+&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;Ideal for transporting equipment and supplies.&lt;/li&gt;&lt;li&gt;Features a spacious cargo area.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Tacoma Access Cab&lt;/strong&gt;
+&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;Perfect for smaller tasks requiring a compact but capable pickup.&lt;/li&gt;&lt;li&gt;Seats up to four passengers.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;&lt;strong&gt;F350 Super Duty Super Cab&lt;/strong&gt;
+&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;Designed for heavy-duty tasks.&lt;/li&gt;&lt;li&gt;Provides robust towing capacity and spacious interior.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;&lt;strong&gt;CO Crew Cab&lt;/strong&gt;
+&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;A versatile truck for larger crews and cargo.&lt;/li&gt;&lt;li&gt;Offers comfortable seating and ample bed space.&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;/ol&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2&gt;Requesting a Vehicle&lt;/h2&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;Follow these steps to submit a loaner vehicle request:&lt;br /&gt;&lt;br /&gt;&lt;/h3&gt;
+&lt;ol style="list-style-position: inside;" start="1" type="1"&gt;&lt;li&gt;&lt;strong&gt;Access the Loaner Vehicle Online Portal&lt;/strong&gt;
+&lt;ul style="list-style-position: inside;" type="circle"&gt;&lt;li&gt;Log in to the portal using your contractor credentials.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Navigate to the Loaner Vehicle Request Page&lt;/strong&gt;
+&lt;ul style="list-style-position: inside;" type="circle"&gt;&lt;li&gt;Select the “Request a Vehicle” option from the main menu.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Fill Out the Request Form&lt;/strong&gt;
+&lt;ul style="list-style-position: inside;" type="circle"&gt;&lt;li&gt;Complete all required fields:
+&lt;ul style="list-style-position: inside;" type="square"&gt;&lt;li&gt;Preferred Vehicle: Choose from the list of available vehicles.&lt;/li&gt;&lt;li&gt;Pickup Date and Time: Specify when you need the vehicle.&lt;/li&gt;&lt;li&gt;Return Date and Time: Indicate the expected return timeframe.&lt;/li&gt;&lt;li&gt;Purpose: Briefly explain the work-related need.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Submit Your Request&lt;/strong&gt;
+&lt;ul style="list-style-position: inside;" type="circle"&gt;&lt;li&gt;Review the information for accuracy.&lt;/li&gt;&lt;li&gt;Click “Submit” to send your request for approval.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Await Confirmation&lt;/strong&gt;
+&lt;ul style="list-style-position: inside;" type="circle"&gt;&lt;li&gt;You will receive an email notification once your request is approved or if additional details are needed.&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;/ol&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;Important Information&lt;/h3&gt;
+&lt;ul style="list-style-position: inside;" type="disc"&gt;&lt;li&gt;Eligibility: Loaner vehicles are available to active contractors for work-related purposes only.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;Availability: Vehicle availability is subject to demand. Requests are processed on a first-come, first-served basis.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;Pickup/Return Location: Details about the pickup and return process will be provided in the confirmation email.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;Contact Support: If you encounter issues with the portal or have questions, contact [Support Team Contact Information].&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;General&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=494a028883d69250b8bec7c6feaad31d"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>shari.lemonnier</sys_created_by>
+        <sys_created_on>2025-01-13 19:04:17</sys_created_on>
+        <sys_id>987b420e83035610b8bec7c6feaad3d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0010001</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
+        <sys_update_name>sys_metadata_link_987b420e83035610b8bec7c6feaad3d4</sys_update_name>
+        <sys_updated_by>shari.lemonnier</sys_updated_by>
+        <sys_updated_on>2025-01-13 19:04:17</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>
