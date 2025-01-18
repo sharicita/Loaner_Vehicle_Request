@@ -24,7 +24,7 @@
         &lt;kb_category display_value="Documentation"&gt;80dd68d983521210b8bec7c6feaad300&lt;/kb_category&gt;
         &lt;kb_knowledge_base display_value="Loaner Vehicle Knowledge"&gt;49b02d0483169250b8bec7c6feaad3c6&lt;/kb_knowledge_base&gt;
         &lt;meta/&gt;
-        &lt;meta_description&gt;Loaner Vehicle Application Scope Application Tables: NAME VALUE DESCRIPTION Vehicle Catalog x_1553691_lva_loaner_vehicle_catalog&lt;/meta_description&gt;
+        &lt;meta_description&gt;Loaner Vehicle Application Scope (Xanadu) Application Dependencies TYPE DESCRIPTION Plugin Service Portal&lt;/meta_description&gt;
         &lt;number&gt;KB0010007&lt;/number&gt;
         &lt;published&gt;2024-12-06&lt;/published&gt;
         &lt;rating/&gt;
@@ -39,13 +39,18 @@
         &lt;sys_domain&gt;global&lt;/sys_domain&gt;
         &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
         &lt;sys_id&gt;a86e12758392d210b8bec7c6feaad3c3&lt;/sys_id&gt;
-        &lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;
+        &lt;sys_mod_count&gt;34&lt;/sys_mod_count&gt;
         &lt;sys_updated_by&gt;shari.lemonnier&lt;/sys_updated_by&gt;
-        &lt;sys_updated_on&gt;2025-01-04 01:32:21&lt;/sys_updated_on&gt;
-        &lt;sys_view_count&gt;19&lt;/sys_view_count&gt;
+        &lt;sys_updated_on&gt;2025-01-18 01:35:58&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;30&lt;/sys_view_count&gt;
         &lt;taxonomy_topic/&gt;
-        &lt;text&gt;&lt;![CDATA[&lt;h2&gt;Loaner Vehicle Application Scope&lt;/h2&gt;
-&lt;h3&gt;Application Tables:&lt;/h3&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;h2&gt;Loaner Vehicle Application Scope (Xanadu)&lt;/h2&gt;
+&lt;h3&gt; &lt;/h3&gt;
+&lt;h3&gt;Application Dependencies&lt;/h3&gt;
+&lt;table style="border-collapse: collapse; width: 100.031%; border-width: 1px;" border="1"&gt;&lt;colgroup&gt;&lt;col style="width: 38.9496%;" /&gt;&lt;col style="width: 60.9769%;" /&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;TYPE&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;DESCRIPTION&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Plugin&lt;/td&gt;&lt;td&gt;Service Portal header is dependent on Employee Service Center version 35.0.2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Group&lt;/td&gt;&lt;td&gt;There must be at least one user in the &amp;#39;Loaner Vehicle Warehouse Managers&amp;#39; group in order for approvals to work.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3&gt; &lt;/h3&gt;
+&lt;h3&gt; &lt;/h3&gt;
+&lt;h3&gt;Application Tables&lt;/h3&gt;
 &lt;table style="border-collapse: collapse; width: 100%; border-width: 1px;" border="1"&gt;&lt;colgroup&gt;&lt;col style="width: 23.4129%;" /&gt;&lt;col style="width: 29.845%;" /&gt;&lt;col style="width: 46.6971%;" /&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;NAME&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;VALUE&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;DESCRIPTION&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Vehicle Catalog&lt;/td&gt;&lt;td&gt;
 &lt;div&gt;x_1553691_lva_loaner_vehicle_catalog&lt;/div&gt;
 &lt;/td&gt;&lt;td&gt;Contains all the information for each vehicle including an image and the vehicle&amp;#39;s current status.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Vehicle Tracker&lt;/td&gt;&lt;td&gt;
@@ -54,16 +59,26 @@
 &lt;div&gt;x_1553691_lva_vehicle_servicing&lt;/div&gt;
 &lt;/td&gt;&lt;td&gt;Record for tracking vehicle servicing when there are issues with a vehicle. &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;Application Business Rules:&lt;/h3&gt;
-&lt;table style="border-collapse: collapse; width: 100.02%; height: 277.159px;" border="1"&gt;&lt;colgroup&gt;&lt;col style="width: 33.3609%;" /&gt;&lt;col style="width: 33.3609%;" /&gt;&lt;col style="width: 33.3609%;" /&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style="height: 15.3977px;"&gt;&lt;td style="height: 15.3977px;"&gt;&lt;strong&gt;NAME&lt;/strong&gt;&lt;/td&gt;&lt;td style="height: 15.3977px;"&gt;&lt;strong&gt;TABLE&lt;/strong&gt;&lt;/td&gt;&lt;td style="height: 15.3977px;"&gt;&lt;strong&gt;DESCRIPTION&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="height: 46.1932px;"&gt;&lt;td style="height: 46.1932px;"&gt;Update vehicle tracking on close&lt;/td&gt;&lt;td style="height: 46.1932px;"&gt;Vehicle Servicing [x_1553691_lva_vehicle_servicing]&lt;/td&gt;&lt;td style="height: 46.1932px;"&gt;When a vehicle servicing record is closed, update the related vehicle tracker record and vehicle status to reflect the changes.&lt;/td&gt;&lt;/tr&gt;&lt;tr style="height: 169.375px;"&gt;&lt;td style="height: 169.375px;"&gt;Vehicle tracker status&lt;/td&gt;&lt;td style="height: 169.375px;"&gt;Vehicle Tracker [x_1553691_lva_vehicle_tracker]&lt;/td&gt;&lt;td style="height: 169.375px;"&gt;Update the vehicle status in the catalog.&lt;br /&gt;&lt;br /&gt;Set vehicle status to unavailable if the vehicle_status is any of the following:&lt;br /&gt; 
+&lt;h3&gt; &lt;/h3&gt;
+&lt;h3&gt;Application Process/Flow&lt;/h3&gt;
+&lt;table style="border-collapse: collapse; width: 100%; border-width: 1px; height: 72.1667px;" border="1"&gt;&lt;colgroup&gt;&lt;col style="width: 23.4129%;" /&gt;&lt;col style="width: 29.845%;" /&gt;&lt;col style="width: 46.6971%;" /&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style="height: 15.3889px;"&gt;&lt;td style="height: 15.3889px;"&gt;&lt;strong&gt;NAME&lt;/strong&gt;&lt;/td&gt;&lt;td style="height: 15.3889px;"&gt;&lt;strong&gt;TRIGGER&lt;/strong&gt;&lt;/td&gt;&lt;td style="height: 15.3889px;"&gt;&lt;strong&gt;DESCRIPTION&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="height: 56.7778px;"&gt;&lt;td style="height: 56.7778px;"&gt;Request Loaner Vehicle&lt;/td&gt;&lt;td style="height: 56.7778px;"&gt;Service Catalog&lt;/td&gt;&lt;td style="height: 56.7778px;"&gt;Automate the creation of a vehicle tracker as well as all activities associated with the request process such as approval and delivery.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt; &lt;/h3&gt;
+&lt;h3&gt;Application Business Rules&lt;/h3&gt;
+&lt;table style="border-collapse: collapse; width: 100.02%; height: 277.159px;" border="1"&gt;&lt;colgroup&gt;&lt;col style="width: 33.3609%;" /&gt;&lt;col style="width: 33.3609%;" /&gt;&lt;col style="width: 33.3609%;" /&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style="height: 15.3977px;"&gt;&lt;td style="height: 15.3977px;"&gt;&lt;strong&gt;NAME&lt;/strong&gt;&lt;/td&gt;&lt;td style="height: 15.3977px;"&gt;&lt;strong&gt;TABLE&lt;/strong&gt;&lt;/td&gt;&lt;td style="height: 15.3977px;"&gt;&lt;strong&gt;DESCRIPTION&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="height: 46.1932px;"&gt;&lt;td style="height: 46.1932px;"&gt;Update vehicle tracking on close&lt;/td&gt;&lt;td style="height: 46.1932px;"&gt;Vehicle Servicing [x_1553691_lva_vehicle_servicing]&lt;/td&gt;&lt;td style="height: 46.1932px;"&gt;When a vehicle servicing record is closed, update the related vehicle tracker record and vehicle status to reflect the changes.&lt;/td&gt;&lt;/tr&gt;&lt;tr style="height: 169.375px;"&gt;&lt;td style="height: 169.375px;"&gt;Vehicle tracker status&lt;/td&gt;&lt;td style="height: 169.375px;"&gt;Vehicle Tracker [x_1553691_lva_vehicle_tracker]&lt;/td&gt;&lt;td style="height: 169.375px;"&gt;Update the vehicle status in the catalog.&lt;br /&gt;&lt;br /&gt;Set vehicle status to unavailable if the vehicle_status is any of the following:&lt;br /&gt;
 &lt;div&gt;
-&lt;div style="padding-left: 40px;"&gt;pending_release&lt;br /&gt;out_on_field&lt;br /&gt;returned_for_inspection&lt;br /&gt;sent_for_servicing&lt;/div&gt;
+&lt;div&gt;
+&lt;ol style="list-style-position: inside;"&gt;&lt;li&gt;pending_release&lt;/li&gt;&lt;li&gt;out_on_field&lt;/li&gt;&lt;li&gt;returned_for_inspection&lt;/li&gt;&lt;li&gt;sent_for_servicing&lt;/li&gt;&lt;/ol&gt;
+&lt;/div&gt;
 &lt;div&gt;&lt;br /&gt;Set vehicle status to available when vehicle_status is:&lt;/div&gt;
+&lt;div&gt;
+&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;returned_to_warehouse&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;
 &lt;div&gt; &lt;/div&gt;
-&lt;div style="padding-left: 40px;"&gt;returned_to_warehouse&lt;/div&gt;
-&lt;div&gt; &lt;/div&gt;
-&lt;div&gt;Set vehicle status to decommissioned when vehicle_status is:&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div style="padding-left: 40px;"&gt;decommissioned&lt;/div&gt;
+&lt;div&gt;Set vehicle status to decommissioned when vehicle_status is:&lt;/div&gt;
+&lt;div&gt;
+&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;decommissioned&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;
 &lt;div&gt; &lt;/div&gt;
 &lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;tr style="height: 15.3977px;"&gt;&lt;td style="height: 15.3977px;"&gt;Vehicle Servicing Record&lt;/td&gt;&lt;td style="height: 15.3977px;"&gt;Vehicle Tracker [x_1553691_lva_vehicle_tracker]&lt;/td&gt;&lt;td style="height: 15.3977px;"&gt;
@@ -74,13 +89,46 @@
 &lt;p style="padding-left: 40px;"&gt;&lt;span style="background-color: rgb(var(--sn-tinymce_content-background,var(--now-form-field--background-color,var(--now-color_background--primary,var(--now-color--neutral-0,255,255,255))))); color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28)))));"&gt;&amp;#34;You are unable to close this ticket because the Vehicle Status is In Service.&amp;#34;&lt;/span&gt;&lt;/p&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;Application Client Scripts:&lt;/h3&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;Application Client Scripts&lt;/h3&gt;
+&lt;table style="border-collapse: collapse; width: 100.031%; height: 206.111px;" border="1"&gt;&lt;colgroup&gt;&lt;col style="width: 50.0007%;" /&gt;&lt;col style="width: 50.0007%;" /&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style="height: 15.3889px;"&gt;&lt;td style="height: 15.3889px;"&gt;&lt;strong&gt;NAME&lt;/strong&gt;&lt;/td&gt;&lt;td style="height: 15.3889px;"&gt;&lt;strong&gt;DESCRIPTION&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="height: 47.1806px;"&gt;&lt;td style="height: 47.1806px;"&gt;Auto populate vehicle&lt;/td&gt;&lt;td style="height: 47.1806px;"&gt;If a user clicks the &amp;#39;Loan Now&amp;#39; button which links to the catalog item to loan the vehicle, the vehicle that button is for is automatically populated in the catalog item.&lt;/td&gt;&lt;/tr&gt;&lt;tr style="height: 65.375px;"&gt;&lt;td style="height: 65.375px;"&gt;Auto populate the Office location field&lt;/td&gt;&lt;td style="height: 65.375px;"&gt;This uses GlideAjax combined with a script include to connect with the backend and auto populate the office location field for the user that the vehicle is being requested for.&lt;/td&gt;&lt;/tr&gt;&lt;tr style="height: 78.1667px;"&gt;&lt;td style="height: 78.1667px;"&gt;Date Validation&lt;/td&gt;&lt;td style="height: 78.1667px;"&gt;Checks to see if the return date is before the date the vehicle is being requested for. If it is before, it clears the field and writes an error to the screen: 
+&lt;div&gt;
+&lt;div&gt;&amp;#39;Date to return vehicle should not be before the Date needed&amp;#39;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;Application Notifications:&lt;/h3&gt;
+&lt;h3&gt;Application Includes&lt;/h3&gt;
+&lt;table style="border-collapse: collapse; width: 100.031%; height: 206.111px;" border="1"&gt;&lt;colgroup&gt;&lt;col style="width: 25.045%;" /&gt;&lt;col style="width: 25.045%;" /&gt;&lt;col style="width: 49.9954%;" /&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style="height: 15.3889px;"&gt;&lt;td style="height: 15.3889px;"&gt;&lt;strong&gt;NAME&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;TYPE&lt;/strong&gt;&lt;/td&gt;&lt;td style="height: 15.3889px;"&gt;&lt;strong&gt;DESCRIPTION&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="height: 47.1806px;"&gt;&lt;td style="height: 47.1806px;"&gt;lvaScripts&lt;/td&gt;&lt;td&gt;Script&lt;/td&gt;&lt;td style="height: 47.1806px;"&gt;
+&lt;p&gt;Scripts for the scoped app LVA (Loaner Vehicles).&lt;/p&gt;
+&lt;p&gt;Utilized by the &amp;#39;Auto populate the Office location field&amp;#39; Client script.&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr style="height: 65.375px;"&gt;&lt;td style="height: 65.375px;"&gt;rnn5zlm&lt;/td&gt;&lt;td&gt;CSS&lt;/td&gt;&lt;td style="height: 65.375px;"&gt;Include for the Google font Arima&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;Application Process/Flow:&lt;/h3&gt;
+&lt;h3&gt;Application Notifications&lt;/h3&gt;
+&lt;table style="border-collapse: collapse; width: 100.031%; border-width: 1px; height: 385.778px;" border="1"&gt;&lt;colgroup&gt;&lt;col style="width: 23.438%;" /&gt;&lt;col style="width: 14.9323%;" /&gt;&lt;col style="width: 18.4291%;" /&gt;&lt;col style="width: 43.1902%;" /&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style="height: 15.3889px;"&gt;&lt;td style="height: 15.3889px;"&gt;&lt;strong&gt;NAME&lt;/strong&gt;&lt;/td&gt;&lt;td style="height: 15.3889px;"&gt;&lt;strong&gt;WHEN TO SEND&lt;/strong&gt;&lt;/td&gt;&lt;td style="height: 15.3889px;"&gt;&lt;strong&gt;WHO WILL RECEIVE&lt;/strong&gt;&lt;/td&gt;&lt;td style="height: 15.3889px;"&gt;&lt;strong&gt;WHAT IT WILL CONTAIN&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="height: 370.389px;"&gt;&lt;td style="height: 370.389px;"&gt;Vehicle request message&lt;/td&gt;&lt;td style="height: 370.389px;"&gt;
+&lt;div&gt;State is Closed Complete and Item is Request Loaner Vehicle&lt;/div&gt;
+&lt;/td&gt;&lt;td style="height: 370.389px;"&gt;
+&lt;div&gt;Opened by, Requested for&lt;/div&gt;
+&lt;/td&gt;&lt;td style="height: 370.389px;"&gt;
+&lt;p&gt;Important Notes on returning the vehicle requested in ${request.number}&lt;/p&gt;
+&lt;div&gt;Hi ${request.requested_for.name}, &lt;/div&gt;
+&lt;div&gt;The vehicle you requested has been delivered to location: ${variables.office_location}.&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;Request Number: ${request.number}&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;Please take note of this request number. You will need to present it to the Warehouse personnel when returning the vehicle. &lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;Delivery Date:&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;${variables.date_needed}&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;Delivery Information:&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;${variables.delivery_information}&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;Thank you,&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;The Loaner Delivery Team&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;]]&gt;&lt;/text&gt;
         &lt;topic&gt;General&lt;/topic&gt;
@@ -97,14 +145,14 @@
         <sys_created_by>shari.lemonnier</sys_created_by>
         <sys_created_on>2025-01-13 19:04:17</sys_created_on>
         <sys_id>147b8e4e83035610b8bec7c6feaad3f4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>KB0010007</sys_name>
         <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1553691_lva">8b6ad87f8351d610b8bec7c6feaad38c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">8b6ad87f8351d610b8bec7c6feaad38c</sys_scope>
         <sys_update_name>sys_metadata_link_147b8e4e83035610b8bec7c6feaad3f4</sys_update_name>
         <sys_updated_by>shari.lemonnier</sys_updated_by>
-        <sys_updated_on>2025-01-13 19:04:17</sys_updated_on>
+        <sys_updated_on>2025-01-18 01:47:58</sys_updated_on>
         <tablename>kb_knowledge</tablename>
     </sys_metadata_link>
 </record_update>
