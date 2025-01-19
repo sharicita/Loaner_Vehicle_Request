@@ -62,7 +62,7 @@
 <br>
 <br>
 
-<a id="keyfeatures"></a><h2>Key Features</h2>
+<h1 id="keyfeatures">Key Features</h1>
 
 <h2 id="user-friendly-portal">User-Friendly Portal</h2>
 
@@ -89,7 +89,7 @@
 <br>
 <br>
 
-<a id="app-benefits"></a><h2>Benefits</h2>
+<h1 id="app-benefits">Benefits</h1>
 
 <h2 id="improved-efficiency">Improved Efficiency</h2>
 
