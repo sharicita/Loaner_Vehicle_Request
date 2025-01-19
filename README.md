@@ -52,7 +52,7 @@
 <br>
 <br>
 
-<a name="keyfeatures"><h2>Key Features</h2></a>
+<a id="keyfeatures"></a><h2>Key Features</h2>
 
 * ### User-Friendly Portal {#user-friendly-portal}
 
@@ -79,7 +79,7 @@
 <br>
 <br>
 
-# Benefits {#benefits}
+<a id="benefits"></a><h2>Benefits</h2>
 
 * ### Improved Efficiency {#improved-efficiency}
 
