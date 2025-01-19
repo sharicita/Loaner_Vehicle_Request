@@ -131,42 +131,49 @@
 <br>
 
 <h1 id="custom-knowledge-base">Custom Knowledge Base</h1>
+
 ![Custom Knowledge Base](screenshots/lva_kb.jpg)
 <br>
 <br>
 <br>
 
 <h1 id="knowledge-article---how-to-request-a-loaner-vehicle-for-work">Knowledge Article \- How to Request a Loaner Vehicle for Work</h1>
+
 ![Knowledge Article \- How to Request a Loaner Vehicle for Work](screenshots/lva_kb_article.jpg)
 <br>
 <br>
 <br>
 
 <h1 id="satisfaction-survey">Satisfaction Survey</h1>
+
 ![Satisfaction Survey](screenshots/lva_survey.jpg)
 <br>
 <br>
 <br>
 
 <h1 id="process-flow---request-loaner-vehicle">Process Flow \- Request Loaner Vehicle</h1>
+
 ![Process Flow \- Request Loaner Vehicle](screenshots/lva_flow.jpg)
 <br>
 <br>
 <br>
 
 <h1 id="vehicle-tracker-record">Vehicle Tracker Record</h1>
+
 ![Vehicle Tracker Record](screenshots/lva_tracker.jpg)
 <br>
 <br>
 <br>
 
 <h1 id="business-rules">Business Rules</h1>
+
 ![Business Rules](screenshots/lva_business_rules.jpg)
 <br>
 <br>
 <br>
 
 <h1 id="client-scripts">Client Scripts</h1>
+
 ![Client Scripts](screenshots/lva_client_scripts.jpg)
 <br>
 <br>
