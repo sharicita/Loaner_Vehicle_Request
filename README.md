@@ -20,7 +20,7 @@
 
 </blockquote>
 
-<h3><a href="#benefits" title="Benefits">Benefits</a></h3>
+<h3><a href="#app-benefits" title="Benefits">Benefits</a></h3>
 <blockquote>  
   
 [★ Improved Efficiency](#improved-efficiency)
@@ -79,7 +79,7 @@
 <br>
 <br>
 
-<a id="benefits"></a><h2>Benefits</h2>
+<a id="app-benefits"></a><h2>Benefits</h2>
 
 * ### Improved Efficiency {#improved-efficiency}
 
