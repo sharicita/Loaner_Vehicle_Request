@@ -4,7 +4,7 @@
 <br>
 <h2>Table of Contents</h2>
 
-<h3><a href="#keyfeatures" title="Key Features">Key Features</a></h3>
+<h1><a href="#keyfeatures" title="Key Features">Key Features</a></h1>
 
 <blockquote>  
 
@@ -20,7 +20,7 @@
 
 </blockquote>
 
-<h3><a href="#app-benefits" title="Benefits">Benefits</a></h3>
+<h1><a href="#app-benefits" title="Benefits">Benefits</a></h1>
 <blockquote>  
   
 <a href="#improved-efficiency" title="Improved Efficiency">★ Improved Efficiency</a>
